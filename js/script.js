@@ -29,7 +29,7 @@ scene.add(light);
 
 var render = function(){
     requestAnimationFrame(render);
-    cube.rotation.y += 0.001;
+    earth.rotation.y += 0.001;
     renderer.render(scene, camera);
 }
 render();
